@@ -12,4 +12,4 @@ This is the final project for Udacity's React & Redux course.
 The project uses **yarn**, so you can install it using `$ yarn`
 
 ## Running
-run using `$ yarn strat` a server will be started at http://localhost:3000 and a browser will be automatically start
+run using `$ yarn start` a server will be started at http://localhost:3000 and a browser will be automatically start

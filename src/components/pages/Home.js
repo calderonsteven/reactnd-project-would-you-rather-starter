@@ -46,9 +46,6 @@ class Home extends Component {
       .map(questionId => questions[questionId])
       .sort((q1, q2) => (q2.timestamp - q1.timestamp))
 
-    console.log('unansweredQuestions', unansweredQuestions)
-    console.log('answeredQuestions', answeredQuestions)
-
     return (
       <Fragment>
         <Tabs value={this.state.tabValue} onChange={(e, tabValue) => { this.setState({tabValue}) }}>

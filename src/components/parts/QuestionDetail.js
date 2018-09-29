@@ -39,7 +39,7 @@ class QuestionDetail extends Component {
       <Card className={classes.card}>
         <CardHeader
           title={`${currentUser.name} ask.`}
-          avatar={<Avatar src={currentUser.avatarURL} />}
+          avatar={<Avatar alt={currentUser.name} src={currentUser.avatarURL} />}
         />
         <CardContent>
           <Typography gutterBottom variant='subheading' component='h3'>
